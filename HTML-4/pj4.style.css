@@ -1,0 +1,52 @@
+aside {
+	left: 10px;
+	border: 1px solid black;
+	padding: 15px;
+	max-width: 80%;
+	position: relative;
+	border-color: #010e80;
+	border-width: 5px;
+	font-size: 18px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -100px;
+	background-color: #010e80;
+}
+
+footer p {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+video {
+	display: block;
+	width: 420px;
+	height: 250px;
+  padding:15px;
+}
+
+audio {
+	padding: 15px;
+	width: 98%;
+  box-sizing: border-box;
+}
+
+embed {
+	width: 400px;
+	height: 458px;
+  padding:15px;
+}
