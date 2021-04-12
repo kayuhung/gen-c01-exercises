@@ -1,17 +1,38 @@
+html {
+    font-size: 16px;
+}
+
+.img {
+    margin: 32px 24px;
+}
+
 header {
    
-    width: 100%;    
+    width: 60%;    
     
     
 }
 
-nav li {
+nav {
     display: grid;
     justify-items: flex-end;
 }
 
-.words {
+.right {
+    display: inline-block;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 50% 50%;
     background-color: gray;
+}
+
+.ps {
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: space-between;
+  vertical-align: middle;
 }
 
 .black {
