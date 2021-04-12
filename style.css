@@ -1,0 +1,23 @@
+header {
+   
+    width: 100%;    
+    
+    
+}
+
+nav li {
+    display: grid;
+    justify-items: flex-end;
+}
+
+.words {
+    background-color: gray;
+}
+
+.black {
+    color: black;
+}
+
+.gray {
+    color: gray;
+}
