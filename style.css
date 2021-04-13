@@ -2,30 +2,53 @@ html {
     font-size: 16px;
 }
 
+navbar {
+    position: inline;
+    background-color: white;
+    height: 64px;
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+}
+
 .img {
     margin: 32px 24px;
+    width: 60%;
 }
 
-header {
-   
-    width: 60%;    
-    
-    
-}
-
-nav {
-    display: grid;
-    justify-items: flex-end;
+.logo {
+    display: flex;
+    flex: 1;
+    height: 32px;
+    align-items: center;
 }
 
 .right {
-    display: inline-block;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    
+
 }
 
 .first {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: inline-flex;
     background-color: gray;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+.first img {
+    display: flex;
+    
+}
+
+.words {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+
 }
 
 .ps {
