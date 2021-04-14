@@ -1,0 +1,49 @@
+html,
+body {
+    font-size: 16px;
+}
+
+#menu_bar {
+    margin: 5%;
+}
+
+.container {
+    background-color: #a6d2fd;
+}
+
+.ac_info {
+    background-color: cornflowerblue;
+}
+
+.icon {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+.setting {
+    margin: 5% auto;
+}
+
+.pj {
+    margin: 10px 10px;
+}
+
+.pj_items {
+    margin: 10px 10px;
+}
+
+.add_pj {
+    margin: 10px 10px;
+    border-radius: 20px;
+}

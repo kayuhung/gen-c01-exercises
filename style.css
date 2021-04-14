@@ -1,67 +1,103 @@
-html {
-    font-size: 16px;
-}
-
-navbar {
-    position: inline;
-    background-color: white;
-    height: 64px;
-    margin: 0 24px;
-    display: flex;
-    align-items: center;
-}
-
-.img {
-    margin: 32px 24px;
-    width: 60%;
-}
-
-.logo {
-    display: flex;
-    flex: 1;
-    height: 32px;
-    align-items: center;
-}
-
-.right {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
+    html,
+    body {
+        font-size: 16px;
+        color: rgb(39, 39, 39)
+    }
     
-
-}
-
-.first {
-    display: inline-flex;
-    background-color: gray;
-    flex-shrink: 0;
-    vertical-align: middle;
-}
-
-.first img {
-    display: flex;
+    navbar {
+        position: inline;
+        background-color: white;
+        height: 64px;
+        margin: 0 24px;
+        display: flex;
+        align-items: center;
+    }
     
-}
-
-.words {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-content: center;
-
-}
-
-.ps {
-  display: inline-flex;
-  flex-flow: column;
-  justify-content: space-between;
-  vertical-align: middle;
-}
-
-.black {
-    color: black;
-}
-
-.gray {
-    color: gray;
-}
+    .img {
+        margin: 32px 24px;
+        width: 60%;
+    }
+    
+    .logo {
+        display: flex;
+        flex: 1;
+        height: 32px;
+        align-items: center;
+    }
+    
+    .right {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    
+    .first {
+        display: flex;
+        background-color: rgb(199, 199, 199);
+        flex-shrink: 0;
+        vertical-align: middle;
+    }
+    
+    .first img {
+        width: 100%;
+    }
+    
+    .words {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 40%
+    }
+    
+    .words h1 {
+        font-size: 2.5rem;
+    }
+    
+    .btn {
+        height: 24px;
+        width: 72px;
+        background-color: #393939;
+        color: white;
+        font-size: 0.6rem;
+        padding: 8px;
+        text-align: center;
+        transition-duration: 0.5s;
+    }
+    
+    .btn:hover {
+        background-color: white;
+        color: #393939;
+        transition-duration: o.5s;
+    }
+    
+    .black {
+        color: black;
+    }
+    
+    .gray {
+        color: gray;
+    }
+    
+    .start_learning {
+        padding: 32px 72px;
+        background-color: rgb(199, 199, 199);
+    }
+    
+    .card-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background-color: #fff;
+    }
+    
+    .card img {
+        width: 100%;
+    }
