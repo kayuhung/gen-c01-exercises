@@ -6,7 +6,7 @@ export function Playlist(props){
     return(
         <div class="Playlist">
             <input value="New Playlist"/>
-            <TrackList />
+            <TrackList tracks={props.tracks} onRemove={props.onRemove} isRemoval={true}/>
             <button class="Playlist-save">SAVE TO SPOTIFY</button>
         </div>
     )
